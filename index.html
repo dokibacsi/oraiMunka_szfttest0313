@@ -5,17 +5,17 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="stlye.css">
-    <script src="main.js"></script>
+    <script src="vlaid.js"></script>
     <title>Document</title>
 </head>
 <body>
     <section>
         <fieldset>
         <legend>Szarosfüggöny</legend>
-        <form action="#" method="get" name="vaéodTeszt" onsubmit="return validateForm()">
+        <form action="#" method="get" name="vlaidTeszt" onsubmit="return validateForm()">
         <div class="sor">  
             <label for="vezeteknev">Vezetéknév:</label>
-            <input type="text" id="vezeteknev" name="vezeteknev" title="Vezetéknév helye">  
+            <input type="text" id="vezeteknev" name="vezeteknev" title="Vezetéknév helye" pattern="[+A-Z][A-Za-z ]{3}">  
         </div>
         <div class="sor">  
             <label for="keresztnev">Keresztnév:</label>
